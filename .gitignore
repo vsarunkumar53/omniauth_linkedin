@@ -10,6 +10,8 @@
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
+/Gemfile.lock
+/db/schema.rb
 !/log/.keep
 !/tmp/.keep
 
