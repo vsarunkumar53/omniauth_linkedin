@@ -9,13 +9,15 @@
   </head>
 
   <body>
-  	<p class="notice"><%= notice %></p>
+  	<p class="notice" style="color:red"><%= notice %></p>
     <p class="alert"><%= alert %></p>
     <% if user_signed_in? %>
       <%= link_to 'Logout', destroy_user_session_path, method: :delete  %>
     <% else %>
       <%= link_to 'Login', new_user_session_path  %>
       <%= link_to 'Sign up', new_user_registration_path  %>
+      <%= link_to "Sign in with Linkedin", user_linkedin_omniauth_authorize_path %>
+      <%= link_to "Sign in with Twitter", user_twitter_omniauth_authorize_path %>
     <% end %>
 
     <%= yield %>

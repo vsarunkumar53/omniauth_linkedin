@@ -54,4 +54,10 @@ Rails.application.configure do
 
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
   
+  config.linkedin_key = "75oltjisn8ppyh"
+  config.linkedin_secret = "Fbq2NuddmMIVOj58"
+
+  config.twitter_key = "IJ6fgoGy6bqR1UIJHDBc9Qg6B"
+  config.twitter_secret = "HmUOBEkmgRZd3VIiJ5rK5rTRIQnGPpM5nMGuBCzYhm3RW2FAKR"
+
 end
