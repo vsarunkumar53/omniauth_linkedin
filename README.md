@@ -9,9 +9,11 @@
 		gem 'omniauth-twitter' 
 		gem 'omniauth-facebook'
 		gem 'omniauth-google-oauth2'
+
 		```
 
 2. set app key and app secret in config/environments/development.rb
+
 ```
 		config.linkedin_key = ""
 	  config.linkedin_secret = ""
@@ -24,6 +26,7 @@
 
 	  config.google_key = ""
 	  config.google_secret = "" 
+
 	  ```
 
 3. config omniauth in config/initializers/devise.rb
@@ -45,9 +48,11 @@
 		  require 'omniauth-google-oauth2'
 
 		  config.omniauth :google_oauth2,  Rails.application.config.google_key, Rails.application.config.google_secret, scope: 'profile'
+
 		  	```
 
 4. set signin and sign out button in app/views/layouts/application.html.erb
+
 			```
 			<% if user_signed_in? %>
 
@@ -95,6 +100,7 @@
 	      super
 	    end
 	  end 
+
 ```
 
 6. create a file in app/controllers/omniauth_callbacks_controller.rb
@@ -148,4 +154,5 @@
 			  end
 		 
 		end
+		
 ```
