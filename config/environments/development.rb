@@ -60,4 +60,9 @@ Rails.application.configure do
   config.twitter_key = "IJ6fgoGy6bqR1UIJHDBc9Qg6B"
   config.twitter_secret = "HmUOBEkmgRZd3VIiJ5rK5rTRIQnGPpM5nMGuBCzYhm3RW2FAKR"
 
+  config.facebook_key = "1742925395967747"
+  config.facebook_secret = "e528544487bb23e2d36c44aff83e4363"
+
+  config.google_key = ""
+  config.google_secret = ""
 end

@@ -51,5 +51,7 @@ gem 'devise'
 
 gem 'omniauth'
 gem 'omniauth-linkedin'
-gem 'omniauth-twitter'
+gem 'omniauth-twitter' 
+gem 'omniauth-facebook'
+gem 'omniauth-google-oauth2'
 
