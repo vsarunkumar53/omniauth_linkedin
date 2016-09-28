@@ -255,7 +255,7 @@ Devise.setup do |config|
   require 'omniauth-facebook'
   config.omniauth :facebook,  Rails.application.config.facebook_key, Rails.application.config.facebook_secret, scope: 'public_profile'
   require 'omniauth-google-oauth2'
-  config.omniauth :google_oauth2,  Rails.application.config.google_key, Rails.application.config.google_secret, scope: 'profile'
+  config.omniauth :google_oauth2,  Rails.application.config.google_key, Rails.application.config.google_secret
   
   # ==> Warden configuration
   # If you want to use other strategies, that are not supported by Devise, or
