@@ -63,7 +63,7 @@ Rails.application.configure do
   config.facebook_key = "1742925395967747"
   config.facebook_secret = "e528544487bb23e2d36c44aff83e4363"
 
-  config.google_key = "593093359036-ut64t3ahq1dgp5jae9csq8og6us9gcvo.apps.googleusercontent.com"
-  config.google_secret = "xBv90bzdYfkDI6MTkcLkYU75"
+  config.google_key = "62306046301-df1gpor9qc86tc5eu3sjpb00j829hsje.apps.googleusercontent.com"
+  config.google_secret = "1ecgqCxTVWrGxlDdhnan_xZF"
 
 end
